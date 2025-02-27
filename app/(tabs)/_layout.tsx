@@ -25,7 +25,7 @@ const screenOptions = ({ route }: { route: RouteProp<ParamListBase, string>; nav
     height: 94,
     zIndex: 0,
   },
-  tabBarActiveTintColor: '#5DCCFC',
+  tabBarActiveTintColor: '#008000',
   tabBarInactiveTintColor: '#000',
 });
 
@@ -46,8 +46,6 @@ const TabLayout = () => {
     return <Redirect href={"/Welcome"} />
   }
   return (
-    <DrawerNavigatorProvider>
-      <CustomDrawer>
         <GestureHandlerRootView style={{ flex: 1 }}>
           <BottomSheetModalProvider>
             <StatusBar style='dark' />
@@ -57,22 +55,9 @@ const TabLayout = () => {
                 options={{
                   tabBarIcon: ({ focused }) => (
                     <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-                      <Feather name="home" size={28} color={focused ? '#5DCCFC' : '#000'} />
-                      <Text style={{ fontSize: 16, color: focused ? '#5DCCFC' : '#000' }}>
+                      <Feather name="home" size={28} color={focused ? '#008000' : '#000'} />
+                      <Text style={{ fontSize: 16, color: focused ? '#008000' : '#000' }}>
                         Home
-                      </Text>
-                    </View>
-                  ),
-                }}
-              />
-              <Tabs.Screen
-                name="Weather"
-                options={{
-                  tabBarIcon: ({ focused }) => (
-                    <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-                      <MaterialCommunityIcons name="google-analytics" size={28} color={focused ? '#5DCCFC' : '#000'} />
-                      <Text style={{ fontSize: 16, color: focused ? '#5DCCFC' : '#000' }}>
-                        Analysis
                       </Text>
                     </View>
                   ),
@@ -93,37 +78,26 @@ const TabLayout = () => {
                         borderRadius: 50,
                         ...MainShadow
                       }}>
-                      <AntDesign name="scan1" size={42} color={focused ? '#5DCCFC' : '#000'} />
+                      <AntDesign name="scan1" size={42} color={focused ? '#008000' : '#000'} />
                     </View>
                   ),
                 }}
               />
               <Tabs.Screen
-                name="Settings"
+                name="Weather"
                 options={{
                   tabBarIcon: ({ focused }) => (
                     <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-                      <Ionicons name="settings-outline" size={28} color={focused ? '#5DCCFC' : '#000'} />
-                      <Text style={{ fontSize: 16, color: focused ? '#5DCCFC' : '#000' }}>
-                        Settings
+                      <MaterialCommunityIcons name="google-analytics" size={28} color={focused ? '#008000' : '#000'} />
+                      <Text style={{ fontSize: 16, color: focused ? '#008000' : '#000' }}>
+                        Analysis
                       </Text>
                     </View>
                   ),
                 }}
               />
-              <Tabs.Screen
-                name="UserProfile"
-                options={{
-                  tabBarIcon: ({ focused }) => (
-                    <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-                      <Feather name="user" size={28} color={focused ? '#5DCCFC' : '#000'} />
-                      <Text style={{ fontSize: 16, color: focused ? '#5DCCFC' : '#000' }}>
-                        Profile
-                      </Text>
-                    </View>
-                  )
-                }}
-              />
+              
+             
               <Tabs.Screen
                 name="Dashboard"
                 options={{
@@ -139,8 +113,6 @@ const TabLayout = () => {
             </Tabs>
           </BottomSheetModalProvider>
         </GestureHandlerRootView>
-      </CustomDrawer>
-    </DrawerNavigatorProvider>
   );
 };
 

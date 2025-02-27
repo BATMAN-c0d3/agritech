@@ -18,8 +18,8 @@ const Board2: React.FC<onBoardingProps> = ({ next, back }) => {
                 <View className='main-view px-[35]'>
                     <Ionicons onPress={back} name="arrow-back" size={28} color="black" />
                     <View className='flex flex-row items-center justify-center mt-5'><Image source={require("../../assets/images/onBoarding/smartReminders.png")} /></View>
-                    <Text className='font-bold text-[24px] text-center mt-2'>Smart Reminders{"\n"}Tailored to You</Text>
-                    <Text className='text-base text-center text-textMainColor mt-3'>Quick and easy to know the hydration condition of your crops anywhere you’re with our smart sensors!</Text>
+                    <Text className='font-bold text-[24px] text-center mt-2'>Smart farming{"\n"}Just for You</Text>
+                    <Text className='text-base text-center text-textMainColor mt-3'>Easily know check the condition of your crops anytime</Text>
                     <View className='flex flex-row gap-x-1 items-center justify-center mt-4'>
                         <TouchableOpacity className='w-[24px] h-[8px] rounded-full bg-[#979797]' ></TouchableOpacity>
                         <TouchableOpacity className='w-[24px] h-[8px] rounded-full bg-subMainColor' ></TouchableOpacity>

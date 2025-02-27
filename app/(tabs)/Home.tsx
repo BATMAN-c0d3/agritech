@@ -19,7 +19,6 @@ const Home = () => {
 
     const linkTo = useLinkTo()
     const { user } = useAuth()
-    const { setOpen, open } = useDrawerContext();
     
     return (
         <SafeAreaView className="bg-white">
@@ -33,7 +32,7 @@ const Home = () => {
                             {user?.name} 🌿
                         </Text>
                     </View>
-                    <Pressable className="p-2 rounded-full bg-[#F3F9F6] relative" onPress={() => setOpen(!open)}>
+                    <Pressable className="p-2 rounded-full bg-[#F3F9F6] relative">
                         <Ionicons name="notifications" size={20} color="black" />
                         <View style={{ position: "absolute" }} className='w-[10px] h-[10px] rounded-full bg-[#0DFF4D] right-0'></View>
                     </Pressable>
@@ -45,13 +44,13 @@ const Home = () => {
                             <Text className='text-[20px] font-medium text-[#FF0000]'>Alert!</Text>
                             <Text className=''>Tomato farm</Text>
                         </View>
-                        <Pressable
+                        {/* <Pressable
                             style={{
                                 paddingHorizontal: 16, paddingVertical: 4, borderRadius: 9999, backgroundColor: 'white', position: 'absolute', bottom: 5, left: 4,
                             }}
                         >
                             <Text>Visit your farm</Text>
-                        </Pressable>
+                        </Pressable> */}
 
                     </View>
                     <View style={{ position: "relative", marginTop: 48 }} >
@@ -59,13 +58,13 @@ const Home = () => {
                             <View style={{ width: "50%", position: "relative" }}>
                                 <Image source={require("../../assets/images/Home/Process.jpg")} className='h-fit' style={{ width: "100%", height: windowWidth / 2 - (windowHeight * 2 / 100) }} />
                                 <View style={{ position: "absolute" }} className='top-[55%] left-[15%] -translate-x-1/2 -translate-y-1/2'>
-                                    <Text className='text-[#384144]'>Tomato farm</Text>
+                                    
                                     <Text className='text-white text-[20px] font-semibold ml-[20px]'>1000ml</Text>
                                 </View>
                             </View>
-                            <View style={MainShadow} className='rounded-md p-[10px] w-[118px]'>
-                                <Text className='font-medium text-[16px] text-[#90A5B4] text-center'>Maximum</Text>
-                                <Text style={{ fontWeight: "600", fontSize: 21, color: "black", textAlign: "center", marginTop: 6 }} className=''>100ml</Text>
+                            <View style={MainShadow} className='rounded-md p-[10px] w-[180px]'>
+                                <Text className='font-medium text-[18px] text-[#90A5B4] text-center'>Maximum</Text>
+                                <Text style={{ fontWeight: "600", fontSize: 21, color: "black", textAlign: "center", marginTop: 1 }} className=''>100ml</Text>
                             </View>
                         </View>
                         <View style={combinedStyles} className='rounded-md p-[10px] w-[50%]'>

@@ -24,7 +24,7 @@ const ContactUs = () => {
                             <Image className='w-full h-full' source={require("../assets/images/Socialicons/WhatsApp.png")} />
                         </View>
                         <Text className='text-[#111719] text-[18px] ml-4 font-semibold'>
-                            (+91) 972-585-3396
+                            (+91) 972-585-3396r
                         </Text>
                     </View>
                     <View className='w-fit ml-[10vw] flex flex-row items-center'>

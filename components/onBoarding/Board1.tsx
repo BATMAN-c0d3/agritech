@@ -23,8 +23,8 @@ const Board1: React.FC<onBoardingProps> = ({ next }) => {
                     <View className='flex flex-row items-center justify-center mt-5'>
                         <Image source={require("../../assets/images/onBoarding/smartIrigation.png")} />
                     </View>
-                    <Text className='font-bold text-[24px] text-center mt-4'>Smart irrigation of crops</Text>
-                    <Text className='text-base text-center text-textMainColor mt-6'>Quick and easy to set your crop's irrigation systems & then track their daily water intake progress.</Text>
+                    <Text className='font-bold text-[24px] text-center mt-4'>Monitor anytime</Text>
+                    <Text className='text-base text-center text-textMainColor mt-6'>Easily monitor your farm growth with our app</Text>
                     <View className='flex flex-row gap-x-1 items-center justify-center mt-5'>
                         <TouchableOpacity className='w-[24px] h-[8px] rounded-full bg-subMainColor' ></TouchableOpacity>
                         <TouchableOpacity className='w-[24px] h-[8px] rounded-full bg-[#979797]' ></TouchableOpacity>
