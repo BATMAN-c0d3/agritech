@@ -8,6 +8,7 @@ import { useLinkTo } from '@react-navigation/native';
 import { getGreeting } from '@/utils/constants';
 import { useDrawerContext } from '@/context/DrawerContext';
 import { useAuth } from '@/context/AuthContext';
+import Dashboard from './Dashboard';
 
 const Home = () => {
     const greeting = getGreeting();
@@ -53,7 +54,7 @@ const Home = () => {
                         </Pressable> */}
 
                     </View>
-                    <View style={{ position: "relative", marginTop: 48 }} >
+                    <View style={{ position: "relative", marginTop: 24 }} >
                         <View style={{ flexDirection: "row", alignItems: "flex-end", justifyContent: "space-between" }}>
                             <View style={{ width: "50%", position: "relative" }}>
                                 <Image source={require("../../assets/images/Home/Process.jpg")} className='h-fit' style={{ width: "100%", height: windowWidth / 2 - (windowHeight * 2 / 100) }} />
@@ -80,7 +81,8 @@ const Home = () => {
                             </View>
                         </View>
                     </View>
-                    <View style={{ marginTop: 48, display: "flex" }} className='items-center justify-center px-[35]'>
+
+                    {/* <View style={{ marginTop: 48, display: "flex" }} className='items-center justify-center px-[35]'>
                         <Pressable
                             onPress={() => linkTo("/Dashboard")}
                             style={{
@@ -102,10 +104,8 @@ const Home = () => {
                             </Text>
                         </Pressable>
 
-                    </View>
-                    <Text style={{ width: 220, textAlign: "center", color: "#90A5B4", fontWeight: "500", fontSize: 14, marginTop: 12, marginBottom: 240 }} className='mx-auto'>
-                        You got 50% of today's goal, keep focus on your health!
-                    </Text>
+                    </View> */}
+                    <Dashboard />
                 </ScrollView>
             </View>
         </SafeAreaView>

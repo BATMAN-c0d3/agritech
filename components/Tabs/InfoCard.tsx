@@ -8,7 +8,7 @@ const InfoCard = () => {
       <Text style={styles.title}>Nutrient Level</Text>
       <View style={styles.row}>
         <View style={styles.iconContainer}>
-          <FontAwesome6 name="plant-wilt" size={21} color="#0DFF4D" />
+          <FontAwesome6 name="plant-wilt" size={21} color="#265828" />
         </View>
         <View>
           <Text style={styles.text}>5 grams left</Text>
@@ -16,7 +16,7 @@ const InfoCard = () => {
       </View>
       <View style={styles.row}>
         <View style={styles.iconContainer}>
-        <FontAwesome5 name="balance-scale" size={21} color="#0DFF4D" />
+        <FontAwesome5 name="balance-scale" size={21} color="#265828" />
         </View>
         <View>
           <Text style={styles.text}>5 grams left</Text>

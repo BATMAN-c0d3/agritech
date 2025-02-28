@@ -7,8 +7,6 @@ import { Redirect, Tabs } from 'expo-router';
 import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { MainShadow } from '@/assets/styles/shadow';
-import { DrawerNavigatorProvider } from '@/context/DrawerContext';
-import CustomDrawer from '@/container/CustomDrawer';
 import { useAuth } from '@/context/AuthContext';
 import { StatusBar } from 'expo-status-bar';
 
@@ -49,7 +47,7 @@ const TabLayout = () => {
         <GestureHandlerRootView style={{ flex: 1 }}>
           <BottomSheetModalProvider>
             <StatusBar style='dark' />
-            <Tabs initialRouteName='Dashboard' screenOptions={screenOptions}>
+            <Tabs initialRouteName='Home' screenOptions={screenOptions}>
               <Tabs.Screen
                 name="Home"
                 options={{

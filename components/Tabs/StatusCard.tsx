@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   },
   value: {
     marginTop: 12,
-    color: '#06492C',
+    color: '#3d8c40',
     fontSize: 18,
     fontWeight: '700',
   },

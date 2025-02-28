@@ -25,13 +25,13 @@ const FarmData: React.FC<props> = ({ handlOnPress }) => {
                 }}
             >
                 <View className="w-[31%]">
-                    <StatusCard icon={<MaterialCommunityIcons name="longitude" size={28} color="#0DFF4D" />} iconName='Longitude' value={selectedField?.long} />
+                    <StatusCard icon={<MaterialCommunityIcons name="longitude" size={28} color="#265828" />} iconName='Longitude' value={selectedField?.long} />
                 </View>
                 <View className="w-[31%]">
-                    <StatusCard icon={<MaterialCommunityIcons name="latitude" size={28} color="#0DFF4D" />} iconName='Latitude' value={selectedField?.lat} />
+                    <StatusCard icon={<MaterialCommunityIcons name="latitude" size={28} color="#265828" />} iconName='Latitude' value={selectedField?.lat} />
                 </View>
                 <View className="w-[31%]">
-                    <StatusCard icon={<MaterialIcons name="photo-size-select-large" size={28} color="#0DFF4D" />} iconName='Farm size' value={selectedField?.size} />
+                    <StatusCard icon={<MaterialIcons name="photo-size-select-large" size={28} color="#265828" />} iconName='Farm size' value={selectedField?.size} />
                 </View>
             </View>
             <View
@@ -45,14 +45,14 @@ const FarmData: React.FC<props> = ({ handlOnPress }) => {
                 }}
             >
                 <View className="w-[31%]">
-                    <StatusCard icon={<FontAwesome5 name="temperature-high" size={28} color="#0DFF4D" />} iconName='Temperature' value={selectedField?.temperature} />
+                    <StatusCard icon={<FontAwesome5 name="temperature-high" size={28} color="#265828" />} iconName='Temperature' value={selectedField?.temperature} />
                 </View>
                 <View className="w-[31%]">
-                    <StatusCard icon={<Entypo name="drop" size={28} color="#0DFF4D" />} iconName='Moisture' value={selectedField?.moisture} />
+                    <StatusCard icon={<Entypo name="drop" size={28} color="#265828" />} iconName='Moisture' value={selectedField?.moisture} />
 
                 </View>
                 <View className="w-[31%]">
-                    <StatusCard icon={<MaterialIcons name="waves" size={28} color="#0DFF4D" />} iconName='Humidity' value={selectedField?.humidity} />
+                    <StatusCard icon={<MaterialIcons name="waves" size={28} color="#265828" />} iconName='Humidity' value={selectedField?.humidity} />
                 </View>
             </View>
             <View
@@ -70,7 +70,8 @@ const FarmData: React.FC<props> = ({ handlOnPress }) => {
                 </View>
                 <Pressable onPress={handlOnPress} style={{ width: '40%' }}>
                     <StatusCard
-                        icon={<MaterialIcons name="sensors" size={28} color="#0DFF4D" />}
+                        icon={<MaterialIcons name="sensors" size={28} color="#265828
+" />}
                         iconName="Sensor status"
                         value="ON"
                     />
