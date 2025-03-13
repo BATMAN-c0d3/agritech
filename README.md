@@ -1,5 +1,5 @@
 # Agrinexa Mobile
 BY :
-> CYIMANA NTWALI Ivan 
-> GANZA KARAMBIZI Axel
->  GATETE Boy 
+CYIMANA NTWALI Ivan 
+GANZA KARAMBIZI Axel
+GATETE Boy 
