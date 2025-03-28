@@ -20,10 +20,10 @@ const ResetPassword = () => {
                         </View>
                     </ImageBackground>
                     <View className='mt-4 px-[2vh]'>
-                        <Text className='text-subMainColor text-[28px] font-semibold'>AgriNexa!</Text>
+                        <Text className='text-subMainColor text-[28px] font-semibold'>AgriTech Advisor!</Text>
                         <Text className='text-textSubMainColor mt-6 text-base font-medium'>Please enter your email address to  {"\n"}request a password reset</Text>
                         <View className='mt-10'>
-                            <TextInput keyboardType='email-address' className='border-[1px] bg-white border-subMainColor p-4 text-xl' placeholder='ex: peaceishimwem@gmail.com' />
+                            <TextInput keyboardType='email-address' className='border-[1px] bg-white border-subMainColor p-4 text-xl' placeholder='ex: example@gmail.com' />
                         </View>
                         <View className='mt-10'>
                             <Text className='text-center text-textMainColor text-[18px]'>Don't have an account? <Text className='text-mainColor'> SignUp</Text></Text>

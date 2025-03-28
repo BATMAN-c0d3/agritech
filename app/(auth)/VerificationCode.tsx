@@ -96,8 +96,8 @@ const VerificationCode: React.FC = () => {
           </View>
         </ImageBackground>
         <View className='mt-4 px-[2vh]'>
-          <Text className='text-subMainColor text-[28px] font-semibold'>AgriNexa!</Text>
-          <Text className='text-textSubMainColor mt-6 text-base font-medium'>Please type the verification code sent to{"\n"}peaceishimwem@gmail.com</Text>
+          <Text className='text-subMainColor text-[28px] font-semibold'>AgriTech Advisor!</Text>
+          <Text className='text-textSubMainColor mt-6 text-base font-medium'>Please type the verification code sent to{"\n"}example@gmail.com</Text>
           <View className='mt-5'>
             {/* <TextInput className='border-[1px] bg-white border-subMainColor p-4 text-xl' placeholder='(+91) 972-585-3396' /> */}
             <CodeField

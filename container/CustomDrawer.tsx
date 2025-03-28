@@ -41,7 +41,7 @@ const CustomDrawerContent = () => {
                             marginBottom: 5,
                         }}
                     >
-                        Peace Ishimwe
+                        Ivan Ntwali
                     </Text>
                     <View style={{ flexDirection: 'row' }}>
                         <Text
@@ -50,7 +50,7 @@ const CustomDrawerContent = () => {
                                 marginRight: 5,
                             }}
                         >
-                            peaceishimwem@gmail.com
+                            example@gmail.com
                         </Text>
                     </View>
                 </View>

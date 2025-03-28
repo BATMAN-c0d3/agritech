@@ -18,7 +18,7 @@ const CompletedSuccess = () => {
                 <View className='pt-[10vh]'>
                     <Image className='mx-auto' source={require("../../assets/images/completedIcon.png")} />
                     <View className='pt-[2vh]'>
-                        <Text className='text-[26px] font-[700] text-[#fff] text-center'>Welcome back <Text className='text-subMainColor'>Peace,</Text></Text>
+                        <Text className='text-[26px] font-[700] text-[#fff] text-center'>Welcome back <Text className='text-subMainColor'>Batman,</Text></Text>
                     </View>
                     <View className='pt-[3vh]'>
                         <Text className='text-[#1C1B1F] text-base text-center'>

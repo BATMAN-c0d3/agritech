@@ -57,14 +57,14 @@ const RegisterWithEmail: React.FC = () => {
                 <ScrollView>
                     <View>
                         <View className='mt-4 px-[2vh]'>
-                            <Text className='text-subMainColor text-[28px] font-semibold'>AgriNexa!</Text>
+                            <Text className='text-subMainColor text-[28px] font-semibold'>AgriTech Advisor!</Text>
                             <View className='mt-5'>
                                 <Text aria-label="Label for Username" className='text-base text-textMainColor font-medium' nativeID="fullName">Full names</Text>
                                 <Controller
                                     control={control}
                                     render={({ field: { onChange, value } }) => (
                                         <TextInput keyboardType='default'
-                                            aria-labelledby="name" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='ex: Peace Ishimwe'
+                                            aria-labelledby="name" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='ex: Ivan Ntwali'
                                             onChangeText={value => onChange(value)}
                                             value={value}
                                         />
@@ -79,7 +79,7 @@ const RegisterWithEmail: React.FC = () => {
                                     control={control}
                                     render={({ field: { onChange, value } }) => (
                                         <TextInput keyboardType='email-address'
-                                            aria-labelledby="email" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='peaceishimwem@gmail.com'
+                                            aria-labelledby="email" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='example@gmail.com'
                                             onChangeText={value => onChange(value)}
                                             value={value}
                                         />

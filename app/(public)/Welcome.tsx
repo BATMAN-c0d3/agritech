@@ -27,7 +27,7 @@ const Welcome = () => {
                     </View>
                     <View style={{ flex: 1, flexDirection: "column" }} className='mt-12 h-[210px] justify-between px-[10px]'>
                         <View className=''>
-                            <Text className='text-[36px] font-semibold text-white'>Welcome to {"\n"}<Text className='text-subMainColor text-[46px]'>AgriNexa</Text> </Text>
+                            <Text className='text-[36px] font-semibold text-white'>Welcome to {"\n"}<Text className='text-subMainColor text-[46px]'>AgriTech Advisor</Text> </Text>
                         </View>
                     </View>
                     <View className=''>

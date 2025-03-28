@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "agrinexafrontend",
-    "slug": "agrinexafrontend",
+    "name": "ATAdvisor",
+    "slug": "ATAdvisor",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -34,8 +34,8 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "Allow Agrinexa to access your camera",
-          "microphonePermission": "Allow Agrinexa to access your microphone",
+          "cameraPermission": "Allow AgriTech Advisor to access your camera",
+          "microphonePermission": "Allow AgriTech Advisor to access your microphone",
           "recordAudioAndroid": true
         }
       ],

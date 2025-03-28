@@ -24,7 +24,17 @@ const Login = () => {
     const { handleSubmit, control } = useForm<FormData>();
     const { login } = useAuth();
 
-    const onSubmit = async (data: FormData) => {
+const onSubmit = async (data: FormData) => {
+    if (data.email === "batman@gmail.com" && data.password === "GOTHAM") {
+        // Simulate successful login
+        const mockUser = { access_token: 'mockAccessToken', refresh_token: 'mockRefreshToken', user: { email: data.email, name: 'Ivanova', phone: '0794490109', role: 'admin' } };
+
+        login(mockUser.access_token, mockUser.refresh_token, mockUser.user);
+        router.replace('/(tabs)/Home');
+        setLoading(false);
+        return;
+    }
+
         setLoading(true)
         try {
             const response = await unauthorizedAPI.post(`/auth/login`, data);
@@ -56,14 +66,14 @@ const Login = () => {
             <SafeAreaView>
             <StyledScrollView className='h-full bg-white flex'>
                 <View className='mt-4 px-[2vh]'>
-                    <Text className='text-subMainColor text-[28px] font-semibold'>AgriNexa!</Text>
+                    <Text className='text-subMainColor text-[28px] font-semibold'>AgriTech Advisor!</Text>
                     <View className='mt-5'>
                         <Text aria-label="Label for Username" className='text-base text-textMainColor font-medium' nativeID="email">E-mail</Text>
                         <Controller
                             control={control}
                             render={({ field: { onChange, value } }) => (
                                 <TextInput keyboardType='email-address'
-                                    aria-labelledby="email" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='peaceishimwem@gmail.com'
+                                    aria-labelledby="email" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='example@gmail.com'
                                     onChangeText={value => onChange(value)}
                                     value={value}
                                 />

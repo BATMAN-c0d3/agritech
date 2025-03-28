@@ -51,11 +51,11 @@ const AddAddress: React.FC = () => {
                         <View className='px-[2vh] mt-1'>
                             <View className='mt-5'>
                                 <Text aria-label="Label for Username" className='text-base text-textMainColor font-medium' nativeID="email">Full names</Text>
-                                <TextInput keyboardType='email-address' style={{ borderRadius: 10 }} aria-labelledby="email" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='ex: Peace Ishimwe' defaultValue='Peace Ishimwe' />
+                                <TextInput keyboardType='email-address' style={{ borderRadius: 10 }} aria-labelledby="email" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='ex: Ivan Ntwali' defaultValue='Farmer' />
                             </View>
                             <View className='mt-5'>
                                 <Text aria-label="Label for phone number" className='text-base text-textMainColor font-medium' nativeID="email">Mobile number</Text>
-                                <TextInput keyboardType='phone-pad' style={{ borderRadius: 10 }} aria-labelledby="phone" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='(+91) 972-585-3396' defaultValue='(+91) 972-585-3396' />
+                                <TextInput keyboardType='phone-pad' style={{ borderRadius: 10 }} aria-labelledby="phone" className='border-[1px] bg-white mt-3 border-subMainColor p-4 text-xl' placeholder='(+250) 000-000-0000' defaultValue='(+250) 000-000-0000' />
                             </View>
                             <View className='mt-5'>
                                 <Text aria-label="Label for Username" className='text-base text-textMainColor font-medium' nativeID="email">State</Text>

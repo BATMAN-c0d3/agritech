@@ -19,7 +19,7 @@ const RegisterWithPhone = () => {
           </View>
         </ImageBackground>
         <View className='mt-4 px-[2vh]'>
-          <Text className='text-subMainColor text-[28px] font-semibold'>AgriNexa!</Text>
+          <Text className='text-subMainColor text-[28px] font-semibold'>AgriTech Advisor!</Text>
           <Text className='text-textSubMainColor mt-6 text-base font-medium'>Enter your phone number to verify {"\n"}your account</Text>
           <View className='mt-10'>
             <TextInput keyboardType='phone-pad' className='border-[1px] bg-white border-subMainColor p-4 text-xl' placeholder='(+91) 972-585-3396' />

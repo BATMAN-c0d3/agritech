@@ -32,7 +32,7 @@ const ContactUs = () => {
                             <Image className='w-10 h-10' source={require("../assets/images/Socialicons/Google.png")} />
                         </View>
                         <Text className='text-[#111719] text-[18px] ml-4 font-semibold'>
-                            agrinexa.farm.com
+                            agritech.advisor.com
                         </Text>
                     </View>
                     <View className='w-fit ml-[10vw] flex flex-row items-center'>
@@ -40,7 +40,7 @@ const ContactUs = () => {
                             <Image className='w-10 h-10' source={require("../assets/images/Socialicons/Slack.png")} />
                         </View>
                         <Text className='text-[#111719] text-[18px] ml-4 font-semibold'>
-                            agrinexa.farm.com
+                            agritech.advisor.com
                         </Text>
                     </View>
                     <View className='w-fit ml-[10vw] flex flex-row items-center'>
@@ -48,7 +48,7 @@ const ContactUs = () => {
                             <Image className='w-10 h-10' source={require("../assets/images/Socialicons/Google.png")} />
                         </View>
                         <Text className='text-[#111719] text-[18px] ml-4 font-semibold'>
-                            agrinexa
+                            agritech advisor
                         </Text>
                     </View>
                     <View className='w-fit ml-[10vw] flex flex-row items-center'>
@@ -56,7 +56,7 @@ const ContactUs = () => {
                             <Image className='w-10 h-10' source={require("../assets/images/Socialicons/Instagram.png")} />
                         </View>
                         <Text className='text-[#111719] text-[18px] ml-4 font-semibold'>
-                            agrinexa
+                            agritech advisor
                         </Text>
                     </View>
                     <View className='w-fit ml-[10vw] flex flex-row items-center'>
@@ -64,7 +64,7 @@ const ContactUs = () => {
                             <Image className='w-10 h-10' source={require("../assets/images/Socialicons/Facebook.png")} />
                         </View>
                         <Text className='text-[#111719] text-[18px] ml-4 font-semibold'>
-                            agrinexa
+                            agritech advisor
                         </Text>
                     </View>
                     <View className='w-fit ml-[10vw] flex flex-row items-center'>
@@ -72,7 +72,7 @@ const ContactUs = () => {
                             <Image className='w-10 h-10' source={require("../assets/images/Socialicons/LinkedIn.png")} />
                         </View>
                         <Text className='text-[#111719] text-[18px] ml-4 font-semibold'>
-                            agrinexa
+                            agritech advisor
                         </Text>
                     </View>
                     <View className='w-fit ml-[10vw] flex flex-row items-center'>
@@ -80,7 +80,7 @@ const ContactUs = () => {
                             <Image className='w-10 h-10' source={require("../assets/images/Socialicons/Twitter.png")} />
                         </View>
                         <Text className='text-[#111719] text-[18px] ml-4 font-semibold'>
-                            agrinexa
+                            agritech advisor
                         </Text>
                     </View>
                 </View>
